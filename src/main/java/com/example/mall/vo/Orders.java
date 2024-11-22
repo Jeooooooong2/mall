@@ -1,5 +1,16 @@
 package com.example.mall.vo;
 
-public class Orders {
+import lombok.Data;
 
+@Data
+public class Orders {
+	private Integer ordersNo;
+	private Integer goodsNo;
+	private Integer ordersAmount;
+	private Integer paymentNo;
+	private String updateDate;
+	private String createDate;
+	
+	
+	
 }
